@@ -1,5 +1,6 @@
 # A quick way to create an empty template for a library / project
-# Borrowed from Krish Naik's tutorials
+# Includes logging
+# Borrowed from Krish Naik's tutorials and adapted slightly
 
 import os
 from pathlib import Path
@@ -9,7 +10,7 @@ logging.basicConfig(
     level=logging.INFO, format="[%(asctime)s]: %(message)s:"
 )  # a standard way of logging info messages with timestamp?
 
-project_name = "mlProject"
+project_name = "<PROJECT_NAME>" # Insert project name here
 
 
 list_of_files = [
